@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.DTO.BalanceDTO">
+    <Position X="21.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.DTO.LedgerTransactionDetailedDTO">
+    <Position X="19" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.DTO.LedgerTransactionDTO">
+    <Position X="19" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.DTO.Commands.AddTransactionCommandDTO">
+    <Position X="16" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.DTO.Commands.CommandDTO">
+    <Position X="16" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Balance.GetOrganizationBalancesByIdRequest">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Balance.GetOrganizationBalancesByIdResponse">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Balance.GetOrganizationBalancesByKardexRequest">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Balance.GetOrganizationBalancesByKardexResponse">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Commands.AddTransactionCommandRequest">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Commands.AddTransactionCommandResponse">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.ServiceRequest">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.ServiceResponse">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Transaction.GetLedgerTransactionDetailsRequest">
+    <Position X="21.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Transaction.GetLedgerTransactionDetailsResponse">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Transaction.GetLedgerTransactionsRequest">
+    <Position X="15" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CargoTrack.TransactionService.Contracts.Models.Service.Transaction.GetLedgerTransactionsResponse">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="CargoTrack.TransactionService.Contracts.Models.Service.ServiceStatus">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

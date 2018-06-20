@@ -1,0 +1,13 @@
+﻿.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}

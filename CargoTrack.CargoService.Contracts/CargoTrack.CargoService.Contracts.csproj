@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3190852C-0428-4415-9A4A-88E5FBB071CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CargoTrack.CargoService.Contracts</RootNamespace>
+    <AssemblyName>CargoTrack.CargoService.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ICargoService.cs" />
+    <Compile Include="Models\DTO\CargoTypeDetailedDTO.cs" />
+    <Compile Include="Models\DTO\CargoTypeDTO.cs" />
+    <Compile Include="Models\Service\Cargo\CreateCargoRequest.cs" />
+    <Compile Include="Models\Service\Cargo\CreateCargoResponse.cs" />
+    <Compile Include="Models\Service\Cargo\DeleteCargoRequest.cs" />
+    <Compile Include="Models\Service\Cargo\DeleteCargoResponse.cs" />
+    <Compile Include="Models\Service\Cargo\GetCargoByIdRequest.cs" />
+    <Compile Include="Models\Service\Cargo\GetCargoByIdResponse.cs" />
+    <Compile Include="Models\Service\Cargo\ListCargoRequest.cs" />
+    <Compile Include="Models\Service\Cargo\ListCargoResponse.cs" />
+    <Compile Include="Models\Service\Cargo\UpdateCargoRequest.cs" />
+    <Compile Include="Models\Service\Cargo\UpdateCargoResponse.cs" />
+    <Compile Include="Models\Service\ServiceRequest.cs" />
+    <Compile Include="Models\Service\ServiceResponse.cs" />
+    <Compile Include="Models\Service\ServiceStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CargoTrack.CargoService.Data\CargoTrack.CargoService.Data.csproj">
+      <Project>{8FAAD846-0583-4B57-B1A1-DB32F90D3571}</Project>
+      <Name>CargoTrack.CargoService.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

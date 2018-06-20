@@ -1,0 +1,20 @@
+﻿<div class="modal-header">
+  <h3 class="modal-title">Rename file</h3>
+</div>
+<div class="modal-body">
+  <table class="table borderless" width="100%">
+ <tbody>
+      <tr ng-repeat="item in vm.data.fileVersions">
+        <td>{{item.mD5Hash}}</td>
+        <td>{{item.versionOfFile}}</td>
+        <td>{{item.size | bytes}}</td>
+        <td>{{item.created | date:'HH:mm:ss MM/dd/yyyy'}}</td>
+        <td><a href="javascript:void(0);" class="btn btn-xs btn-primary" ng-click="vm.downloadConcreteVersion(vm.data.name, item)">Download</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="modal-footer">
+  <button class="btn btn-warning" type="button" ng-click="vm.cancel()">Cancel</button>
+</div>

@@ -1,0 +1,53 @@
+﻿<div class="modal-header">
+  <h3 class="modal-title">Details for transaction {{vm.data.Id}}</h3>
+</div>
+<div class="modal-body">
+  <table class="table-borderless" width="100%">
+    <tbody>
+      <tr>
+        <td><b>Id</b></td>
+        <td></td>
+        <td>{{vm.data.Id}}</td>
+      </tr>
+      <tr>
+        <td><b>Time stamp</b></td>
+        <td></td>
+        <td>{{vm.data.Timestamp | date:'HH:mm:ss MM/dd/yyyy'}}</td>
+      </tr>
+      <tr>
+        <td><b>Transaction type</b></td>
+        <td></td>
+        <td>{{vm.data.TransactionType | transactionType}}</td>
+      </tr>
+      <tr>
+        <td><b>Kardex</b></td>
+        <td></td>
+        <td>{{vm.data.Kardex}}</td>
+      </tr>
+      <tr>
+        <td><b>Ean</b></td>
+        <td></td>
+        <td>{{vm.data.Ean}}</td>
+      </tr>
+      <tr>
+        <td><b>Amount</b></td>
+        <td></td>
+        <td>{{vm.data.Amount}}</td>
+      </tr>
+      <tr>
+        <td><b>User</b></td>
+        <td></td>
+        <td>{{vm.data.UserName}}</td>
+      </tr>
+      <tr>
+        <td><b>Comment</b></td>
+        <td></td>
+        <td>{{vm.data.Comments}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="modal-footer">
+  <button class="btn btn-warning" type="button" ng-click="vm.cancel()">Cancel</button>
+</div>

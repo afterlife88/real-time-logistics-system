@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CargoTrack.OrganizationService.OrganizationService" CodeBehind="OrganizationService.svc.cs" Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory" %>

@@ -1,0 +1,36 @@
+﻿<div class="row organization-search">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Balance for {{vm.kardexCompany}}</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th><input type="text" class="form-control filters" data-ng-model="vm.searchEan"></th>
+                        <th><input type="text" class="form-control filters" data-ng-model="vm.searchDescription"></th>
+                        <th><input type="text" class="form-control filters" data-ng-model="vm.searchCargoBalance"></th>
+                    </tr>
+                </thead>
+
+                <thead>
+                    <tr>
+                        <th>Item number</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in vm.balances | filter: {Ean : vm.searchEan} | filter: {Description: vm.searchDescription} |
+                    filter: {CargoBalance: vm.searchCargoBalance}">
+                        <td>{{item.Ean}}</td>
+                        <td>{{item.Description}}</td>
+                        <td>{{item.CargoBalance}}</td>
+                        <td><a href="javascript:void(0);" class="btn btn-xs btn-primary" ng-click="vm.tranasctionsView(item)">See transactions</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

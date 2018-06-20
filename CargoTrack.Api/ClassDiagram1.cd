@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CargoTrack.Api.Configuration.AutomapperConfiguration">
+    <Position X="15" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\AutomapperConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Configuration.NinjectConfiguration">
+    <Position X="9.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\NinjectConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Hubs.OrganizationHub">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Hubs\OrganizationHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Hubs.TransactionHub">
+    <Position X="13.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAEkEAAAAAAAABAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hubs\TransactionHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Infrastructure.NinjectHubActivator" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\NinjectHubActivator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CargoTrack.Api.Models.DTO.AddTransactionCommandDTO">
+    <Position X="8" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAACAAAAAAEACAAAAAAAEAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\DTO\AddTransactionCommandDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.DTO.BalanceDTO">
+    <Position X="16.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEgAgAAAAAAAAEAAAAQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DTO\BalanceDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.DTO.OrganizationDTO">
+    <Position X="15" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAIAAAAAAQAAAAAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>Models\DTO\OrganizationDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Balance.GetBalanceByOrganizationIdRequest">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Balance\GetBalanceByOrganizationIdRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Balance.GetBalanceByOrganizationIdResponse">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Balance\GetBalanceByOrganizationIdResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Balance.GetBalancesByKardexRequest">
+    <Position X="5.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Balance\GetBalancesByKardexRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Balance.GetBalancesByKardexResponse">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Balance\GetBalancesByKardexResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Organization.GetOrganizationsByKardexRequest">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Organization\GetOrganizationsByKardexRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Organization.GetOrganizationsByKardexResponse">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Organization\GetOrganizationsByKardexResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.ServiceRequest">
+    <Position X="11" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\ServiceRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.ServiceResponse">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\ServiceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Transaction.AddTransactionRequest">
+    <Position X="7.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Transaction\AddTransactionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Transaction.AddTransactionResponse">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Transaction\AddTransactionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Transaction.GetLedgerTransactionDetailsRequest">
+    <Position X="12.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Transaction\GetLedgerTransactionDetailsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Transaction.GetLedgerTransactionDetailsResponse">
+    <Position X="14.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Transaction\GetLedgerTransactionDetailsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Transaction.GetLedgerTransactionsRequest">
+    <Position X="16.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAEAAAAAEAA=</HashCode>
+      <FileName>Models\Service\Transaction\GetLedgerTransactionsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Models.Service.Transaction.GetLedgerTransactionsResponse">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service\Transaction\GetLedgerTransactionsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CargoTrack.Api.Startup">
+    <Position X="9.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CargoTrack.Api.Models.Service.ServiceStatus">
+    <Position X="8" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAgAAAAAEAAAAAAAAAIA=</HashCode>
+      <FileName>Models\Service\ServiceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

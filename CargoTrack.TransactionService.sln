@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTrack.TransactionService", "CargoTrack.TransactionService\CargoTrack.TransactionService.csproj", "{C85184D4-AD20-4C3A-B8C0-772DB14F08A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTrack.TransactionService.Contracts", "CargoTrack.TransactionService.Contracts\CargoTrack.TransactionService.Contracts.csproj", "{643FF767-1844-4253-85DE-C2C5FACE19B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTrack.TransactionService.Tests", "CargoTrack.TransactionService.Tests\CargoTrack.TransactionService.Tests.csproj", "{5943D5A6-96D4-4CE9-A923-64673070CF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTrack.TransactionService.CQRS", "CargoTrack.TransactionService.CQRS\CargoTrack.TransactionService.CQRS.csproj", "{3927757F-8E63-484A-9BBE-4B45E150ED55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTrack.TransactionService.CQRS.Read", "CargoTrack.TransactionService.CQRS.Read\CargoTrack.TransactionService.CQRS.Read.csproj", "{11B5B27F-D314-4CD9-B550-2BE25C13AA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoTrack.TransactionService.CQRS.Write", "CargoTrack.TransactionService.CQRS.Write\CargoTrack.TransactionService.CQRS.Write.csproj", "{3FCDB4BC-6B8E-4DB5-B358-D1302024A559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C85184D4-AD20-4C3A-B8C0-772DB14F08A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85184D4-AD20-4C3A-B8C0-772DB14F08A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85184D4-AD20-4C3A-B8C0-772DB14F08A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85184D4-AD20-4C3A-B8C0-772DB14F08A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643FF767-1844-4253-85DE-C2C5FACE19B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643FF767-1844-4253-85DE-C2C5FACE19B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643FF767-1844-4253-85DE-C2C5FACE19B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643FF767-1844-4253-85DE-C2C5FACE19B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5943D5A6-96D4-4CE9-A923-64673070CF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5943D5A6-96D4-4CE9-A923-64673070CF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5943D5A6-96D4-4CE9-A923-64673070CF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5943D5A6-96D4-4CE9-A923-64673070CF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3927757F-8E63-484A-9BBE-4B45E150ED55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3927757F-8E63-484A-9BBE-4B45E150ED55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3927757F-8E63-484A-9BBE-4B45E150ED55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3927757F-8E63-484A-9BBE-4B45E150ED55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B5B27F-D314-4CD9-B550-2BE25C13AA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B5B27F-D314-4CD9-B550-2BE25C13AA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B5B27F-D314-4CD9-B550-2BE25C13AA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B5B27F-D314-4CD9-B550-2BE25C13AA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCDB4BC-6B8E-4DB5-B358-D1302024A559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCDB4BC-6B8E-4DB5-B358-D1302024A559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCDB4BC-6B8E-4DB5-B358-D1302024A559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCDB4BC-6B8E-4DB5-B358-D1302024A559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

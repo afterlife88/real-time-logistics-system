@@ -1,0 +1,16 @@
+{
+  "name": "cargo-track",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "^1.5.0",
+    "ng-alertify": "^1.0.2",
+    "bootstrap": "^3.3.7",
+    "angular-spinner": "^0.8.1",
+    "angular-local-storage": "^0.5.2",
+    "font-awesome": "^4.7.0",
+    "angular-bootstrap": "^2.2.0",
+    "angular-signalr-hub": "^1.6.2",
+    "signalr": "^2.2.1"
+  }
+}

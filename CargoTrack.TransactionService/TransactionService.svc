@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CargoTrack.TransactionService.TransactionService" CodeBehind="TransactionService.svc.cs" Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory" %>
