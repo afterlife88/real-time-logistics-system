@@ -117,6 +117,8 @@ namespace CargoTrack.Api.Hubs
                 return new GetLedgerTransactionsResponse(null, ServiceStatus.ServiceError, ex.Message);
             }
         }
+        
+      
 
         /// <summary>
         /// Get details for a ledger transaction
@@ -165,7 +167,7 @@ namespace CargoTrack.Api.Hubs
 
                 if (response.ServiceStatus != TransactionService.Contracts.Models.Service.ServiceStatus.Success)
                     return new AddTransactionResponse(ServiceStatus.ServiceError, response.ErrorMessage);
-
+                Clients.All.getNewState(response);
                 return Mapper.Map<AddTransactionResponse>(response);
             }
             catch (Exception ex)
